@@ -1,0 +1,93 @@
+body {
+    background-color: #0A033C;
+    color: #FF6F61;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.responsive-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #FF6F61;
+    text-decoration: none;
+}
+
+main h1 {
+    font-size: 2.5rem;
+    margin: 20px 0;
+}
+
+.updates h2, .newsletter h2 {
+    font-size: 1.5rem;
+}
+
+.updates ul {
+    list-style: none;
+    padding: 0;
+}
+
+.updates ul li {
+    margin: 5px 0;
+}
+
+.updates ul li a {
+    color: #FF6F61;
+    text-decoration: none;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.newsletter button {
+    padding: 10px;
+    background-color: #FF6F61;
+    color: #0A033C;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 40px;
+}
+
+footer address, .links, .recruit{
+    margin-bottom: 20px;
+}
+
+.links a, .recruit a {
+    color: #FF6F61;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+}
