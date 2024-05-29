@@ -97,7 +97,7 @@ a {
   
   .carousel-track {
     display: flex ;
-    animation: scrollCarousel 20s linear infinite;
+    animation: scrollCarousel 30s linear infinite;
   }
   
   .carousel-image {
